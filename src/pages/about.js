@@ -6,6 +6,8 @@ import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-7.png";
 import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
+import Education from '@/components/Education'
 
 
 const AnimatedNumbers = ({value}) => {
@@ -55,17 +57,9 @@ const about = () => {
                         <p className='my-4 font-medium'>
                         My skills encompass a wide range of programming languages and tools, including C++, C, Python, Rust, and more. 
                         I'm comfortable with data structures and problem-solving. My experience as a Software Engineer Intern in Portland 
-                        allowed me to work within a SCRUM agile team, collaborating with my team to improve existing tools and migrate 
-                        databases to AWS successfully. I contributed to streamlining development processes, maintained and enhanced 
+                        allowed me to work within a SCRUM agile team. I contributed to streamlining development processes, maintained and enhanced 
                         existing tools, and played a role in the successful migration of databases to AWS.
 
-
-                        </p>
-
-                        <p className='my-4 font-medium'>
-                        My commitment to excellence is also reflected in my past 
-                        experiences, including completing the L’SPACE Mission Concept Academy, where I received training from NASA scientists 
-                        and engineers.
                         </p>
 
                         <p className='font-medium'>
@@ -78,7 +72,7 @@ const about = () => {
 <div className='col-span-3 relative h-max rounded-2xl barder-2 border-solid border-dark
 bg-light p-8
 '>
-<div className='absolute top-0 -right-3 -z10 w-[102] h-[103] rounded-[2rem] bg-dark'/>
+<div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark'/>
     <Image src={profilePic} alt="Adriana" className='w-full h-auto rounded-2xl'/>
 </div>
 
@@ -94,6 +88,8 @@ bg-light p-8
              
                  </div>
                  <Skills />
+                 <Experience />
+                 <Education />
                 </Layout>
             </main>
         </>

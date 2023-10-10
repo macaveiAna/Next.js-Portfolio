@@ -24,33 +24,28 @@ every project I work on. I look forward to the opportunity to bring my skills an
 
 EXPERIENCE: 
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
+Software Engineer Intern @LegitScript
+Summer 2023-Present | Portland, OR
+Worked with the merchant monitoring team to develope and maintain
+tools for LegitScript analysts, including improving the accuracy 
+in merchant monitioring.
 
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
+L'SPACE Mission Concept Academy 
+September 2022-December 2022 | Portland, OR
+Receive mission development skills training each week from NASA scientists and engineers
+and collaborate with other students to design a mission-related team project using Siemens 
+NX CAD modeling.
 
-Software Developer @Amazon
-2020-2021 | Seattle, WA.
-Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability.
+Tutor @Clackamas Community College
+Fall 2020-Fall 2022 | Oregon City, OR
+Assisted in tutoring courses on computer programming, maintaining and encouraging a growth mindset toward
+student learning and teaching practice. Facilitated problem-solving with a curious mind and critical thinking
+skills.
 
-Software Developer Intern @Microsoft
-Summer 2019 | Redmond, WA.
-Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-including implementing a new user interface for a system settings panel and optimizing the performance of 
-a core system component.
-
-Teaching Assistant @MIT
-Fall 2018 | Massachusetts Ave, Cambridge, MA.
-Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-and graded exams and assignments.
+Front-End Employee @Costco
+September 2018-June 2023 | Clackamas, OR
+Various positions including cashier, security, photo center, bakery, gas station, front-end, stocker and
+menver service.
 
 
 --------------------------------------------------------------
@@ -58,19 +53,16 @@ and graded exams and assignments.
 EDUCATION:
 
 Bachelor Of Science In Computer Science
-2016-2020 | Massachusetts Institute Of Technology (MIT)
+2022-2024 | Portland State University
 Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
 Intelligence.
 
-Master Of Computer Science
-2020-2022 | Stanford University
-Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding.
+Computer Science Transfer
+2019-2021 | Clackamas Community College
+Completed introductory  level computer courses and all prerequisites required by the transfer degree to 
+Portland State University.
 
-Online Coursework
-2016-2020 | Coursera And EdX
-Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-Learning Engineering.
+
 
 --------------------------------------------------------------
 

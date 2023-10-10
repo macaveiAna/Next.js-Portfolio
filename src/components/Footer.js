@@ -12,6 +12,10 @@ const Footer = () => {
                 <div className='flex items-center'>
                 Build with <span className='text-primary text-2xl px-1'>&#9825;</span>
                 by&nbsp;Adriana
+                
+                &nbsp;copyright@ 
+                <a  href="https://www.freepik.com/free-vector/abstract-splashed-watercolor-textured-background_2632737.htm#query=blue%20purple&position=13&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik
+                
                 </div>
                 
 
