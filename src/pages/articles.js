@@ -3,11 +3,15 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useRef } from 'react'
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import article2 from "../../public/images/articles/create loading screen in react js.jpg";
 import {motion, useMotionValue} from "framer-motion"
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
+import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
+import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+
+
 
 const FramerImage = motion(Image);
 
@@ -17,13 +21,32 @@ const MovingImg = ({title, img, link}) => {
     const y = useMotionValue(0);
     const imgRef = useRef(null);
 
+    function handleMouse(event)  {
+        imgRef.current.style.display = 'inline-block';
+        x.set(event.pageX);
+        y.set(-10);
+    }
+
+    function handleMouseLeave(event)  {
+        imgRef.current.style.display = 'none';
+        x.set(0);
+        y.set(0);
+    }
+
     return(
 
-        <Link href={link} target="_blank">
+        <Link href={link} target="_blank"
+            onMouseMove={handleMouse}
+            onMouseLeave={handleMouseLeave}
+            >
             <h2 className='capitalize text-xl font-semibold hover:underline'>
             {title}
             </h2>
-            <Image src={img} alt={title} className="w-96 h-auto hidden absolute rounded-lg"/>
+            <FramerImage 
+            style={{x:x, y:y}}
+            initial={{opacity:0}}
+            whileInView={{opacity:1, transition:{duration:0.2}}}
+            ref={imgRef} src={img} alt={title} className="z-10 w-96 h-auto hidden absolute rounded-lg"/>
             </Link>
     )
 
@@ -113,7 +136,7 @@ const articles = () => {
                 "
                 date="October 10, 2023"
                 link="/"
-                img={article3}
+                img={article4}
             />
 
             <Article 
@@ -121,7 +144,7 @@ const articles = () => {
                 "
                 date="October 10, 2023"
                 link="/"
-                img={article3}
+                img={article5}
             />
         </ul>
     </Layout>
