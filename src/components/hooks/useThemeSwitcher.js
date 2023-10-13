@@ -1,4 +1,5 @@
-import React from 'react'
+import { Fira_Sans_Extra_Condensed } from 'next/font/google';
+import React, { useEffect, useState } from 'react'
 
 const useThemeSwitcher = () => {
 
@@ -23,6 +24,7 @@ const useThemeSwitcher = () => {
             }else{
                 let check = mediaQuery.matches ? "dark" : "light";
                 setMode(check);
+
                 if(check==="dark"){
                     document.documentElement.classList.add("dark")
                     
@@ -34,13 +36,24 @@ const useThemeSwitcher = () => {
 
         mediaQuery.addEventListener("change", handleChange)
 
+        return () => mediaQuery.removeEventListener("change", handleChange)
+
     
     }, [])
+
+    useEffect(() => {
+        if(mode === "dark"){
+            window.localStorage.setItem("theme", "dark");
+            document.documentElement.classList.add("dark")
+        }else{
+            window.localStorage.setItem("theme", "light");
+            document.documentElement.classList.remove("dark")
+        }
+
+    }, [mode])
     
 
-    return (
-        <div>useThemeSwitcher</div>
-    )
+    return [mode, setMode]
 }
 
 export default useThemeSwitcher
