@@ -137,7 +137,7 @@ const projects = ({ title, type, img, link, github }) => {
 
                
                 </div>
-                <div className='col-span-6'>
+                <div className='col-span-6 sm:col-span-12'>
                 <Project
                 title="React Portfolio Website"
                 img={project1}
@@ -149,7 +149,7 @@ const projects = ({ title, type, img, link, github }) => {
                 
                 />
                 </div>
-                <div className='col-span-6'>
+                <div className='col-span-6 sm:col-span-12'>
                 <Project
                 title="React Portfolio Website"
                 img={project1}
