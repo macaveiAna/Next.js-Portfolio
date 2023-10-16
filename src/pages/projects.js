@@ -5,7 +5,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from "../../public/images/projects/Project_pic1.png";
+import project1 from "../../public/images/projects/portfolio-cover-image1.png";
 import {motion} from "framer-motion"
 
 const FramerImage = motion(Image);
