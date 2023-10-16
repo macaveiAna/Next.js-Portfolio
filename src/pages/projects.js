@@ -115,6 +115,7 @@ const projects = ({ title, type, img, link, github }) => {
         <title>Adriana | Projects Page</title>
         <meta name="description" content="any description"/>
     </Head>
+    <TransitionEffect />
     <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
             <AnimatedText text ="Imagination Inpires Knowledge" 
@@ -135,7 +136,7 @@ const projects = ({ title, type, img, link, github }) => {
                 
                 />
 
-               
+              
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
@@ -173,7 +174,7 @@ const projects = ({ title, type, img, link, github }) => {
                 type="Featured Project"
                 
                 /></div>
-
+                
                 
                 
             </div>
