@@ -144,8 +144,6 @@ const NavBar = () => {
                 >
                 <LinkedInIcon />
                 </motion.a>
-            
-               
                
     
             
