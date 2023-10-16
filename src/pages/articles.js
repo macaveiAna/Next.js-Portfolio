@@ -46,7 +46,7 @@ const MovingImg = ({title, img, link}) => {
             style={{x:x, y:y}}
             initial={{opacity:0}}
             whileInView={{opacity:1, transition:{duration:0.2}}}
-            ref={imgRef} src={img} alt={title} className="z-10 w-96 h-auto hidden absolute rounded-lg"/>
+            ref={imgRef} src={img} alt={title} className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"/>
             </Link>
     )
 
