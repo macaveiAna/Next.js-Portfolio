@@ -136,20 +136,11 @@ const projects = ({ title, type, img, link, github }) => {
                 
                 />
 
+
               
                 </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project
-                title="React Portfolio Website"
-                img={project1}
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-                page transitions, cool background effects, unique design and it is mobile responsive."
-                link="/"
-                github="/"
-                type="Featured Project"
-                
-                />
-                </div>
+               
+               {/*
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
                 title="React Portfolio Website"
@@ -163,6 +154,19 @@ const projects = ({ title, type, img, link, github }) => {
                 />
                 </div>
 
+                <div className='col-span-6 sm:col-span-12'>
+                <Project
+                title="React Portfolio Website"
+                img={project1}
+                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
+                page transitions, cool background effects, unique design and it is mobile responsive."
+                link="/"
+                github="/"
+                type="Featured Project"
+                
+                />
+                </div>
+                
                 <div className='col-span-12'>
                 <FeaturedProject
                 title="React Portfolio Website"
@@ -173,7 +177,11 @@ const projects = ({ title, type, img, link, github }) => {
                 github="/"
                 type="Featured Project"
                 
-                /></div>
+                />
+              
+                </div>
+                */}
+               
                 
                 
                 
