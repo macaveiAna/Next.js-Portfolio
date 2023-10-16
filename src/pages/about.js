@@ -56,7 +56,7 @@ const about = () => {
                             
                         <p className='my-4 font-medium'>
                         My skills encompass a wide range of programming languages and tools, including C++, C, Python, Rust, and more. 
-                        I'm comfortable with data structures and problem-solving. My experience as a Software Engineer Intern in Portland 
+                        Im comfortable with data structures and problem-solving. My experience as a Software Engineer Intern in Portland 
                         allowed me to work within a SCRUM agile team. I contributed to streamlining development processes, maintained and enhanced 
                         existing tools, and played a role in the successful migration of databases to AWS.
 
