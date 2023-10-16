@@ -48,7 +48,7 @@ const about = () => {
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
                         <p className='font-medium'>
-                        Hello, I'm  Adriana, a dedicated Computer Science student at Portland State University with a strong 
+                        Hello, Im  Adriana, a dedicated Computer Science student at Portland State University with a strong 
                         passion for software engineering and problem-solving. I am set to graduate in June 2024 with a Bachelor of Science 
                         degree in Computer Science.
 
