@@ -8,6 +8,7 @@ import profilePic from "../../public/images/profile/developer-pic-7.png";
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 const AnimatedNumbers = ({value}) => {

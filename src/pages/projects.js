@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import project1 from "../../public/images/projects/portfolio-cover-image1.png";
 import {motion} from "framer-motion"
+import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image);
 
