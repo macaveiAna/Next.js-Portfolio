@@ -1,10 +1,11 @@
+import React, { useRef } from 'react'
+
 {/** 
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useRef } from 'react'
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import article2 from "../../public/images/articles/create loading screen in react js.jpg";
 import {motion, useMotionValue} from "framer-motion"
