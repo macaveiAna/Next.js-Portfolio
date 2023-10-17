@@ -131,7 +131,7 @@ const projects = ({ title, type, img, link, github }) => {
                 img={project1}
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
                 page transitions, cool background effects, unique design and it is mobile responsive."
-                link="/"
+                link="https://react-portfolio-egrj-b0aw5vftp-adrianas-projects-047da36c.vercel.app/"
                 github="https://github.com/macaveiAna/React-Portfolio"
                 type="Featured Project"
                 
