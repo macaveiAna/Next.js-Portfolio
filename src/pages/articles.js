@@ -10,6 +10,7 @@ import {motion, useMotionValue} from "framer-motion"
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 
@@ -110,7 +111,8 @@ const articles = () => {
                 <title>Adriana | Articles Page</title>
                 <meta name="description" content="any description"/>
             </Head>
-        <TransitionEvent/>
+
+        <TransitionEffect />
 
 <main className='w-full mb-16 flex flex-col items items-center justify-center overflow-hidden dark:text-light'>
     <Layout className='pt-16'>
