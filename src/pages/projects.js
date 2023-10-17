@@ -113,7 +113,7 @@ const projects = ({ title, type, img, link, github }) => {
     return (
       <>
         <Head>
-        <title>Adriana | Projects Page</title>
+        <title>Ana | Projects Page</title>
         <meta name="description" content="any description"/>
     </Head>
     <TransitionEffect />
