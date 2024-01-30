@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import project1 from "../../public/images/projects/portfolio-cover-image1.png";
+import project2 from "../../public/images/projects/cert-img.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -134,27 +135,21 @@ const projects = ({ title, type, img, link, github }) => {
                 link="https://react-portfolio-egrj-b0aw5vftp-adrianas-projects-047da36c.vercel.app/"
                 github="https://github.com/macaveiAna/React-Portfolio"
                 type="Featured Project"
-                
                 />
-
-
-              
                 </div>
                
-               {/*
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
-                title="React Portfolio Website"
-                img={project1}
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-                page transitions, cool background effects, unique design and it is mobile responsive."
-                link="/"
+                title="AWS Cloud Practitioner Essentials"
+                img={project2}
+                summary="A certificate of completion of AWS Cloud Practitioner Essentials."
+                link="https://aws.amazon.com/certification/certified-cloud-practitioner/?gclid=Cj0KCQiA2eKtBhDcARIsAEGTG42gp4zQIMdD-fuyJ9DxRB6he_cA8ta6e4dHL32ME-c01BvqEli1e6oaAsz8EALw_wcB&trk=c228b2f7-f72a-429c-a18d-b8304f6391df&sc_channel=ps&ef_id=Cj0KCQiA2eKtBhDcARIsAEGTG42gp4zQIMdD-fuyJ9DxRB6he_cA8ta6e4dHL32ME-c01BvqEli1e6oaAsz8EALw_wcB:G:s&s_kwcid=AL!4422!3!683982754255!!!g!!!20851909384!165100744308"
                 github="/"
                 type="Featured Project"
                 
                 />
                 </div>
-
+            {/*
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
                 title="React Portfolio Website"

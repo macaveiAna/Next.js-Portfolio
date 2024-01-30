@@ -49,10 +49,17 @@ const Experience = () => {
             '/>
 
                 <u1 className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+                    <Details
+                    position="Devops Engineer Intern (PCEP)" company="Trimble"
+                    companyLink="https://www.trimble.com/en"
+                    time="January 2024-June 2024" address="Portland, OR"
+                    work="Worked on an in-house tool that managed cloud environments and other automatable processes"
+
+                    />
                     <Details 
-                    position="Software Engineer Intern" company="LegitScript"
+                    position="Software Engineer Intern (PCEP)" company="LegitScript"
                     companyLink="https://www.legitscript.com/"
-                    time="Summer 2023-Present" address="Portland, OR"
+                    time="June 2023-January 2024" address="Portland, OR"
                     work="Worked with the merchant monitoring team to develop and maintain
                     tools for LegitScript analysts, including improving the accuracy 
                     in merchant monitioring."
@@ -79,7 +86,6 @@ const Experience = () => {
                     time="September 2018-June 2023" address="Clackamas, OR"
                     work="Various positions including cashier, security, photo center, bakery, gas station, front-end, stocker and
                     menver service."
-
                     />
                 </u1>
             </div>
