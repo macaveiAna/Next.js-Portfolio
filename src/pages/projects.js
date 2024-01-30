@@ -144,7 +144,6 @@ const projects = ({ title, type, img, link, github }) => {
                 img={project2}
                 summary="A certificate of completion of AWS Cloud Practitioner Essentials."
                 link="https://aws.amazon.com/certification/certified-cloud-practitioner/?gclid=Cj0KCQiA2eKtBhDcARIsAEGTG42gp4zQIMdD-fuyJ9DxRB6he_cA8ta6e4dHL32ME-c01BvqEli1e6oaAsz8EALw_wcB&trk=c228b2f7-f72a-429c-a18d-b8304f6391df&sc_channel=ps&ef_id=Cj0KCQiA2eKtBhDcARIsAEGTG42gp4zQIMdD-fuyJ9DxRB6he_cA8ta6e4dHL32ME-c01BvqEli1e6oaAsz8EALw_wcB:G:s&s_kwcid=AL!4422!3!683982754255!!!g!!!20851909384!165100744308"
-                github="/"
                 type="Featured Project"
                 
                 />
